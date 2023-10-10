@@ -1,0 +1,68 @@
+.fourthBoxMainContainer {
+    width: 80%;
+    margin: 190px auto 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;}
+
+.fourthBox_leftSideContainer>h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    padding-right: 40px;
+}
+
+.fourthBox_horizentalLine {
+    margin: 31px 0;
+    background-color: #000;
+    border: 2px solid rgba(0, 0, 0, 1);
+    width: 56px;
+}
+
+.fourthBox_leftSideContainer>p {
+    color: #7D7987;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+.fourthBox_leftSideContainer>button {
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1px solid rgba(69, 143, 246, 1);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.fourthBox_leftSideContainer>button:hover {
+    font-size: 19px;
+    cursor: pointer;
+    transition: font-size 2s;
+}
+
+.fourthBox_leftSideContainer>button>svg {
+    margin-left: 14px;
+}
+
+
+.fourthBox_leftSideContainer {
+    width: 32.50%;
+    max-height: 100%;
+    margin-right: 71px;
+    padding-right: 20px;
+}

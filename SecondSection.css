@@ -1,0 +1,112 @@
+/* Second Box */
+
+.secondBoxMainContainer {
+    max-width: 80%;
+    margin: 190px auto 0;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondBox_heading>h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+
+.horizentalLine {
+    background-color: #000;
+    border: 2px solid rgba(0, 0, 0, 1);
+    width: 56px;
+    margin: 0 auto;
+}
+
+.secondBox_heading>p {
+    color: rgba(125, 121, 135, 1);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    width: 75%;
+    margin: 33px auto 0;
+}
+
+.secondBox_Boxes {
+    width: 100%;
+    margin: 75px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.secondBox {
+    text-decoration: none;
+    height: 354px;
+    width: 31%;
+    margin-bottom: 30px;
+    border: 20px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    flex-shrink: 0;
+}
+
+.secondBox:hover{
+    padding: 25px;
+    transition: padding 2s;
+}
+
+
+.secondBox>svg {
+    margin-bottom: 10px;
+}
+
+.secondBox>h3 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.secondBox>p {
+    color: #7D7987;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+
+.learnMore {
+    height: 60px;
+    width: 200px;
+    margin: 75px auto 0;
+    background-color: transparent;
+    border: 1px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: rgba(69, 143, 246, 1);
+}
+
+.learnMore:hover{
+    font-size: 19px;
+    cursor: pointer;
+    transition: font-size 2s;
+}

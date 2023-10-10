@@ -1,0 +1,104 @@
+.sixthBoxMainContainer {
+    width: 100%;
+    margin: 190px auto 0;
+}
+
+.sixthBoxMainContainer>h2 {
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.sixthBox_horizentalLine {
+    width: 56px;
+    height: 2px;
+    margin: 25px auto 0;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #000;
+}
+
+.articleBox {
+    width: 21.90%;
+    height: auto;
+    margin: 0 20px 0;
+    flex-shrink: 0;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    border-radius: 10px;
+}
+
+.articleBox>img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.articleText {
+    padding: 0px 51px 40px 33px;
+}
+
+.articleText>h2 {
+    color: #000;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 21px;
+}
+
+.articleText>p {
+    color: #7D7987;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 12px 0 25px;
+}
+
+.articleText>a {
+    color: #4089ED;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.articleText>a>svg {
+    margin-left: 11px;
+}
+
+.articleBoxMainContainer {
+    margin: 79px 0 69px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sixthBox_viewAllbtn {
+    border-radius: 55px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #458FF6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    border: 1px solid rgba(69, 143, 246, 1);
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+
+.sixthBox_viewAllbtn:hover{
+    font-size: 19px;
+    cursor: pointer;
+    transition: font-size 2s;
+}

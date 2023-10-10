@@ -1,0 +1,57 @@
+.thirdBoxMainContainer {
+    width: 85%;
+    margin: 190px auto 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.thirdBox_rightSideContainer {
+    max-height: 100%;
+    width: 36%;
+    margin-left: 137px;
+}
+
+.thirdBox_rightSideContainer>h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.thirdBox_rightSideContainer>p {
+    color: #7D7987;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 31.333px;
+    padding-right: 70px;
+}
+
+.thirdBox_horizentalLine {
+    margin: 31.333px 0;
+    background-color: #000;
+    border: 2px solid rgba(0, 0, 0, 1);
+    width: 56px;
+}
+
+.thirdBox_learnMore {
+    height: 60px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: rgba(69, 143, 246, 1);
+}
+
+.thirdBox_learnMore:hover{
+    font-size: 19px;
+    cursor: pointer;
+    transition: font-size 2s;
+}
